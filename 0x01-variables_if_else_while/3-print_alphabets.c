@@ -2,18 +2,16 @@
 
 /**
  * main - Prints the alphabet in lowercase and then uppercase.
- *
- * Return 0
+ * * Return 0
  */
-
 int main(void)
 {
-	char ch;
+	int ch;
 
-	for (ch = 'a'; ch <= 'Z'; ch++)
-	{
+	for (ch = 'a'; ch <= 'z'; ch++)
 		putchar(ch);
-	}
+	for (ch = 'A'; ch <= 'Z'; ch++)
+		putchar(ch);
 	putchar('\n');
 	return (0);
 }
