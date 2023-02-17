@@ -2,9 +2,11 @@
 
 /**
  * main - Prints the alphabet in lowercase and then uppercase.
+ *
  * * Return 0
  */
 int main(void)
+
 {
 	int ch;
 
