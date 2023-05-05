@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * bit_flipper - counts the number of bit to change and get another
+ * flip_bits - counts the number of bit to change and get another
  * @n: first number
  * @m: sec number
  *
